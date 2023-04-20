@@ -1,13 +1,5 @@
 // Your Script here.
- //convert the string to lowercase
-  str = str.toLowerCase();
-  
-  //decipher the code
-  let decipher = '';
-  for(let i = 0 ; i < str.length; i++){
-    decipher += decoded[str[i]];
-  }
-  
+
 const lookup = {
   'A': 'N','B': 'O','C': 'P','D': 'Q',
   'E': 'R','F': 'S','G': 'T','H': 'U',
